@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD6371912450126200FD2C37 /* foodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6371902450126200FD2C37 /* foodView.swift */; };
+		DD6371932450126F00FD2C37 /* houseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6371922450126F00FD2C37 /* houseView.swift */; };
+		DD6371952450128100FD2C37 /* schoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6371942450128100FD2C37 /* schoolView.swift */; };
+		DD6371972450128900FD2C37 /* gardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6371962450128900FD2C37 /* gardenView.swift */; };
+		DD6371992450129B00FD2C37 /* friedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6371982450129B00FD2C37 /* friedView.swift */; };
+		DD63719B2450160A00FD2C37 /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD63719A2450160A00FD2C37 /* tabView.swift */; };
+		DD63719D24501B3E00FD2C37 /* idView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD63719C24501B3E00FD2C37 /* idView.swift */; };
 		DD87C5B62449703800373C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87C5B52449703800373C3D /* AppDelegate.swift */; };
 		DD87C5B82449703800373C3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87C5B72449703800373C3D /* SceneDelegate.swift */; };
 		DD87C5BA2449703800373C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87C5B92449703800373C3D /* ContentView.swift */; };
@@ -16,7 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD87C5B22449703800373C3D /* SwiftUIAnimatin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimatin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6371902450126200FD2C37 /* foodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodView.swift; sourceTree = "<group>"; };
+		DD6371922450126F00FD2C37 /* houseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseView.swift; sourceTree = "<group>"; };
+		DD6371942450128100FD2C37 /* schoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolView.swift; sourceTree = "<group>"; };
+		DD6371962450128900FD2C37 /* gardenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gardenView.swift; sourceTree = "<group>"; };
+		DD6371982450129B00FD2C37 /* friedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friedView.swift; sourceTree = "<group>"; };
+		DD63719A2450160A00FD2C37 /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
+		DD63719C24501B3E00FD2C37 /* idView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idView.swift; sourceTree = "<group>"; };
+		DD87C5B22449703800373C3D /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD87C5B52449703800373C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD87C5B72449703800373C3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD87C5B92449703800373C3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +54,7 @@
 		DD87C5A92449703800373C3D = {
 			isa = PBXGroup;
 			children = (
-				DD87C5B42449703800373C3D /* SwiftUIAnimatin */,
+				DD87C5B42449703800373C3D /* SwiftUIAnimation */,
 				DD87C5B32449703800373C3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +62,30 @@
 		DD87C5B32449703800373C3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD87C5B22449703800373C3D /* SwiftUIAnimatin.app */,
+				DD87C5B22449703800373C3D /* SwiftUIAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD87C5B42449703800373C3D /* SwiftUIAnimatin */ = {
+		DD87C5B42449703800373C3D /* SwiftUIAnimation */ = {
 			isa = PBXGroup;
 			children = (
 				DD87C5B52449703800373C3D /* AppDelegate.swift */,
 				DD87C5B72449703800373C3D /* SceneDelegate.swift */,
 				DD87C5B92449703800373C3D /* ContentView.swift */,
+				DD63719A2450160A00FD2C37 /* tabView.swift */,
+				DD63719C24501B3E00FD2C37 /* idView.swift */,
+				DD6371982450129B00FD2C37 /* friedView.swift */,
+				DD6371942450128100FD2C37 /* schoolView.swift */,
+				DD6371962450128900FD2C37 /* gardenView.swift */,
+				DD6371922450126F00FD2C37 /* houseView.swift */,
+				DD6371902450126200FD2C37 /* foodView.swift */,
 				DD87C5BB2449703B00373C3D /* Assets.xcassets */,
 				DD87C5C02449703B00373C3D /* LaunchScreen.storyboard */,
 				DD87C5C32449703B00373C3D /* Info.plist */,
 				DD87C5BD2449703B00373C3D /* Preview Content */,
 			);
-			path = SwiftUIAnimatin;
+			path = SwiftUIAnimation;
 			sourceTree = "<group>";
 		};
 		DD87C5BD2449703B00373C3D /* Preview Content */ = {
@@ -78,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD87C5B12449703800373C3D /* SwiftUIAnimatin */ = {
+		DD87C5B12449703800373C3D /* SwiftUIAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD87C5C62449703B00373C3D /* Build configuration list for PBXNativeTarget "SwiftUIAnimatin" */;
+			buildConfigurationList = DD87C5C62449703B00373C3D /* Build configuration list for PBXNativeTarget "SwiftUIAnimation" */;
 			buildPhases = (
 				DD87C5AE2449703800373C3D /* Sources */,
 				DD87C5AF2449703800373C3D /* Frameworks */,
@@ -90,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIAnimatin;
+			name = SwiftUIAnimation;
 			productName = SwiftUIAnimatin;
-			productReference = DD87C5B22449703800373C3D /* SwiftUIAnimatin.app */;
+			productReference = DD87C5B22449703800373C3D /* SwiftUIAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD87C5AD2449703800373C3D /* Build configuration list for PBXProject "SwiftUIAnimatin" */;
+			buildConfigurationList = DD87C5AD2449703800373C3D /* Build configuration list for PBXProject "SwiftUIAnimation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD87C5B12449703800373C3D /* SwiftUIAnimatin */,
+				DD87C5B12449703800373C3D /* SwiftUIAnimation */,
 			);
 		};
 /* End PBXProject section */
@@ -146,9 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD63719B2450160A00FD2C37 /* tabView.swift in Sources */,
+				DD6371912450126200FD2C37 /* foodView.swift in Sources */,
 				DD87C5B62449703800373C3D /* AppDelegate.swift in Sources */,
+				DD6371972450128900FD2C37 /* gardenView.swift in Sources */,
 				DD87C5B82449703800373C3D /* SceneDelegate.swift in Sources */,
+				DD6371932450126F00FD2C37 /* houseView.swift in Sources */,
+				DD6371952450128100FD2C37 /* schoolView.swift in Sources */,
 				DD87C5BA2449703800373C3D /* ContentView.swift in Sources */,
+				DD6371992450129B00FD2C37 /* friedView.swift in Sources */,
+				DD63719D24501B3E00FD2C37 /* idView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +313,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimatin/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimation/Preview Content\"";
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIAnimatin/Info.plist;
+				INFOPLIST_FILE = SwiftUIAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SwiftUIAnimatin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SwiftUIAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,15 +333,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimatin/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimation/Preview Content\"";
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIAnimatin/Info.plist;
+				INFOPLIST_FILE = SwiftUIAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SwiftUIAnimatin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SwiftUIAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD87C5AD2449703800373C3D /* Build configuration list for PBXProject "SwiftUIAnimatin" */ = {
+		DD87C5AD2449703800373C3D /* Build configuration list for PBXProject "SwiftUIAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD87C5C42449703B00373C3D /* Debug */,
@@ -332,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD87C5C62449703B00373C3D /* Build configuration list for PBXNativeTarget "SwiftUIAnimatin" */ = {
+		DD87C5C62449703B00373C3D /* Build configuration list for PBXNativeTarget "SwiftUIAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD87C5C72449703B00373C3D /* Debug */,
